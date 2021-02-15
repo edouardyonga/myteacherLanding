@@ -198,13 +198,13 @@
             </h3>
             <span></span>
             <p class="reg-subtitle">
-              Choose your coures below and become a Pro ASAP
+              Select your courses and register your info below
             </p>
           </div>
           <div class="agileits-services-row row py-md-5 pb-5">
             <div class="col-lg-6">
               <div class="agileits-services-grids">
-                <h4 class="sec-title">Foundation Courses</h4>
+                <h4 class="sec-title">Courses</h4>
                 <span></span>
                 <div>
                   <div v-for="(course, index) in foundation" :key='index' class="form-check">
@@ -377,7 +377,7 @@
         </div>
       </div>
       <!-- //contact -->
-      
+
       <!-- footer -->
       <footer id="footer" class="text-sm-left text-center">
         <div class="container py-4 py-sm-5">

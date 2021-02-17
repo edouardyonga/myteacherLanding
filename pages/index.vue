@@ -9,8 +9,8 @@
             class="navbar navbar-expand-lg navbar-light bg-gradient-secondary"
           >
             <h1>
-              <nuxt-link to='/' class="navbar-brand text-white logo">
-              <img src="/logo.png"/>
+              <nuxt-link to='/' class="navbar-brand text-white">
+              MyTeachers.tech
                </nuxt-link>
             </h1>
             <button
@@ -48,8 +48,11 @@
           <div class="banner-text text-center">
             <div class="slider-info">
               <h3>Become an IT Pro</h3>
+              <p class="text-red" style="color:red">
+                We have rapid engineering program.
+              </p>
               <p class="text-white">
-                In as little as 2 weeks - 6 months.
+                In as little as 2 weeks.
                 <strong><i>No Experience needed!</i></strong>
               </p>
               <p class="text-white"></p>
@@ -79,7 +82,7 @@
             <div class="col-lg-6 wthree-form-left py-md-5 pt-sm-5 pb-sm-3">
               <div class="title-wthree">
                 <h3 class="agile-title text-center">
-                  Join The Rapid IT Transformation Program
+                  Get Your Dream Job Faster
                 </h3>
                 <span></span>
               </div>
@@ -90,7 +93,7 @@
                       class="agileits-services-grids agileits-services-grids-cust"
                     >
                       <i class="fab fa-sellcast"></i>
-                      <h4 class="sec-title">On-Premise Training</h4>
+                      <h4 class="sec-title">Corporate Training</h4>
                       <span></span>
                     </div>
                   </div>
@@ -99,7 +102,7 @@
                       class="agileits-services-grids agileits-services-grids-cust mt-lg-0 mt-5"
                     >
                       <i class="fas fa-globe"></i>
-                      <h4 class="sec-title">Live virtual Classes</h4>
+                      <h4 class="sec-title">Hands On Training</h4>
                       <span></span>
                     </div>
                   </div>
@@ -194,7 +197,7 @@
         <div class="container py-lg-5">
           <div class="title-wthree text-center">
             <h3 class="agile-title text-white">
-              Free Registration: Limited Time offer
+              Free Registration: Eding soon
             </h3>
             <span></span>
             <p class="reg-subtitle">
@@ -202,9 +205,9 @@
             </p>
           </div>
           <div class="agileits-services-row row py-md-5 pb-5">
-            <div class="col-lg-6">
+            <div class="col-lg-6 mx-auto">
               <div class="agileits-services-grids">
-                <h4 class="sec-title">Courses</h4>
+                <h4 class="sec-title">Our Novice to Pro Programs</h4>
                 <span></span>
                 <div>
                   <div v-for="(course, index) in foundation" :key='index' class="form-check">
@@ -222,7 +225,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
+            <!-- <div class="col-lg-6">
               <div class="agileits-services-grids">
                 <h4 class="sec-title">Specialization Courses</h4>
                 <span></span>
@@ -241,7 +244,7 @@
 
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -407,21 +410,23 @@ export default {
   data: () => ({
     selected:[],
     foundation: [
-      "Introduction to Computers",
-    "Introduction to Data Center Operations",
-     "Data Center Environment - Practicals",
-     "Introduction  to Networking – and practicals",
-     "Operating Systems – Linux",
-     "Operating systems - Windows",
-     "Virtualization tools – Vmware",
-     "Virtualization Tools – Kvm and Oracle Virtualbox",
-     "Applications – Apache, Java",
-     "Databases – mysql, Postgres, MariaDB",
-     "Monitoring tools - Nagios",
-     "Automation tools – Ansible, scripting, Puppet, Git",
-     "Resume Building - Assistance",
-     "Technical Interview Preparation"],
+      "Cyber Security",
+    "Databases Administration",
+     "Linux system Administration & Engineering",
+     "Networking: - CCNA, Network+",
+     "Cloud Computing",
+     "AWS Training & Certifications Prep",
+     "Web Development: Full Stack",
+     "Automation – Ansible, Git, Scripting",
+     "Vmware, KVM",
+     "Computer Hardware/Software Engineering, A+",
+     "Windows System Administration",
+     "Containers – Docker, kubernetes",
+     "Red Hat: RHCSA, RHCE, Ansible, containers",
+     "Technical Job Interview Preparation and Resume Review",
+     "Mortgage Underwriting"
 
+],
     specialization: [
       "Red Hat System Administrator",
       "Web Development",

@@ -9,8 +9,8 @@
             class="navbar navbar-expand-lg navbar-light bg-gradient-secondary"
           >
             <h1>
-              <nuxt-link to='/' class="navbar-brand text-white">
-              MyTeachers.tech
+              <nuxt-link to='/' class="navbar-brand text-white" style="text-transform: none;">
+              MyTeachers.Tech
                </nuxt-link>
             </h1>
             <button
@@ -49,10 +49,10 @@
             <div class="slider-info">
               <h3>Become an IT Pro</h3>
               <p class="text-red" style="color:red">
-                We have rapid engineering program.
+                We offer Accelerated Training Programs.
               </p>
               <p class="text-white">
-                In as little as 2 weeks.
+                Some Programs as little as 2 days.
                 <strong><i>No Experience needed!</i></strong>
               </p>
               <p class="text-white"></p>
@@ -82,7 +82,7 @@
             <div class="col-lg-6 wthree-form-left py-md-5 pt-sm-5 pb-sm-3">
               <div class="title-wthree">
                 <h3 class="agile-title text-center">
-                  Get Your Dream Job Faster
+                  Get your Dream Job Fast
                 </h3>
                 <span></span>
               </div>
@@ -197,7 +197,7 @@
         <div class="container py-lg-5">
           <div class="title-wthree text-center">
             <h3 class="agile-title text-white">
-              Free Registration: Eding soon
+              Free Registration: Ending Soon
             </h3>
             <span></span>
             <p class="reg-subtitle">

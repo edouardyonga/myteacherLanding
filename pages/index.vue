@@ -10,7 +10,12 @@
           >
             <h1>
               <nuxt-link to='/' class="navbar-brand text-white" style="text-transform: none;">
-              MyTeachers.Tech
+              MyTeachers.Tech<br/>
+
+              <p class="moto">
+                - We offer Accelerated Training Programs<br>
+<span>- Hands on Corporate Training</span>
+              </p>
                </nuxt-link>
             </h1>
             <button
@@ -49,20 +54,9 @@
             <div class="slider-info">
               <h3>Become an IT Pro</h3>
               <p class="text-red" style="color:red">
-                We offer Accelerated Training Programs.
+                Rapid Courses: <strong><i>No Experience needed!</i></strong>
               </p>
-              <p class="text-white">
-                Some Programs as little as 2 days.
-                <strong><i>No Experience needed!</i></strong>
-              </p>
-              <p class="text-white"></p>
 
-              <a
-                class="btn btn-theme mt-lg-5 mt-3 agile-link-bnr scroll btn-outline-secondary btn-change5"
-                href="#register"
-                role="button"
-                >View More</a
-              >
             </div>
           </div>
         </div>
@@ -88,24 +82,10 @@
               </div>
               <div>
                 <div class="agileits-services-row row py-md-5 pb-5">
-                  <div class="col-lg-6">
-                    <div
-                      class="agileits-services-grids agileits-services-grids-cust"
-                    >
-                      <i class="fab fa-sellcast"></i>
-                      <h4 class="sec-title">Corporate Training</h4>
-                      <span></span>
-                    </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div
-                      class="agileits-services-grids agileits-services-grids-cust mt-lg-0 mt-5"
-                    >
-                      <i class="fas fa-globe"></i>
-                      <h4 class="sec-title">Hands On Training</h4>
-                      <span></span>
-                    </div>
-                  </div>
+
+                <h4 class="agile-title text-center mx-auto">
+                  Free Registration: <b class="text-red">Ending Soon</b>
+                </h4>
                 </div>
               </div>
               <!-- register form grid -->
@@ -197,11 +177,11 @@
         <div class="container py-lg-5">
           <div class="title-wthree text-center">
             <h3 class="agile-title text-white">
-              Free Registration: Ending Soon
+             Select your courses and register
             </h3>
             <span></span>
             <p class="reg-subtitle">
-              Select your courses and register your info below
+              A professional will contact you ASAP
             </p>
           </div>
           <div class="agileits-services-row row py-md-5 pb-5">

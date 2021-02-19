@@ -53,7 +53,8 @@
           <div class="banner-text text-center">
             <div class="slider-info">
               <h3>Become an IT Pro</h3>
-              <p class="text-red" style="color:red">
+              <p class="text-red mx-auto" style="color:red; background: rgba(15, 14, 14, 0.5);
+    padding: 10px; width: 60%">
                 Rapid Courses: <strong><i>No Experience needed!</i></strong>
               </p>
 

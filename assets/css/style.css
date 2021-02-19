@@ -1250,6 +1250,10 @@ ul.social-iconsv2 li a:hover {
 }
 
 @media screen and (max-width: 600px) {
+    .moto {
+        display: none;
+        font-size: 6px !important;
+    }
     .slider-info {
         width: auto;
     }

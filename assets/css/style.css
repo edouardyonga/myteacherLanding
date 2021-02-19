@@ -188,7 +188,8 @@ a.navbar-brand {
 /* banner */
 
 .banner {
-    background: url(/banner.jpg) center no-repeat #fff;
+    /* background: url(/banner.jpg) center no-repeat #fff; */
+    background: url(https://www.usnews.com/dims4/USNEWS/5b960b9/2147483647/thumbnail/970x647/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2F37%2F6d%2F7ab2527540bb9e41be4006bdfe00%2F180309-computerlab-stock.jpg) center no-repeat #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

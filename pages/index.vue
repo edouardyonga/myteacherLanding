@@ -9,7 +9,7 @@
             class="navbar navbar-expand-lg navbar-light bg-gradient-secondary"
           >
             <h1>
-              <nuxt-link to='/' class="navbar-brand text-white" style="text-transform: none;">
+              <nuxt-link to='/' class="navbar-brand text-white" style="text-transform: none; background: rgba(15, 14, 14, 0.5); padding:10px;">
               MyTeachers.Tech<br/>
 
               <p class="moto">

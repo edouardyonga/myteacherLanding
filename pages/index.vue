@@ -248,7 +248,6 @@
             <div class="col-lg-6 mt-lg-0 mt-5">
               <!-- register form grid -->
               <div class="register-top1">
-                <form action="#" method="get" class="register-wthree">
                   <div class="form-group">
                     <div class="row">
                       <div
@@ -261,10 +260,10 @@
                       <div class="col-md-10">
                         <label> Name </label>
                         <input
+                        v-model="name"
                           class="form-control"
                           type="text"
                           placeholder="Johnson"
-                          name="email"
                           required=""
                         />
                       </div>
@@ -283,10 +282,10 @@
                       <div class="col-md-10">
                         <label> Email </label>
                         <input
+                        v-model="email"
                           class="form-control"
                           type="email"
                           placeholder="example@email.com"
-                          name="email"
                           required=""
                         />
                       </div>
@@ -308,10 +307,10 @@
                       <div class="col-md-10">
                         <label> Phone </label>
                         <input
+                        v-model="phone"
                           class="form-control"
                           type="text"
                           placeholder="+237 654309211"
-                          name="email"
                           required=""
                         />
                       </div>
@@ -333,6 +332,7 @@
                       <div class="col-md-10">
                         <label> City </label>
                         <input
+                        v-model="city"
                           class="form-control"
                           placeholder="city"
                           required=""
@@ -346,14 +346,13 @@
                     <div class="offset-2"></div>
                     <div class="col-md-10">
                       <button
-                        type="submit"
                         class="btn btn-agile btn-block w-100"
+                        @click="register"
                       >
                         Send
                       </button>
                     </div>
                   </div>
-                </form>
               </div>
               <!--  //register form grid ends here -->
             </div>
@@ -390,6 +389,11 @@
 export default {
   data: () => ({
     selected:[],
+    name:'',
+    email:'',
+    phone:'',
+    city:'',
+
     foundation: [
       "Cyber Security",
     "Databases Administration",
@@ -422,6 +426,25 @@ export default {
       "AWS – AWS Certifications"
       ],
   }),
+  methods: {
+
+      register () {
+
+          this.$store.dispatch('register',{
+            name:this.name,
+            phone: this.phone,
+            email: this.email,
+            courses_of_interest: this.selected
+          })
+          .then((res)=> {console.log(res)})
+          .catch(
+            (error) => {
+              console.log(error)
+            }
+          )
+
+      },
+    },
 };
 </script>
 

@@ -61,7 +61,12 @@ module.exports = {
     build: {},
     server: {
         port: 3000 // default: 3000
-    }
+    },
+    modules: ['@nuxtjs/axios'],
+    env: {
+        baseUrl: "http://71.246.211.18:3001/api/v1/",
+    },
+
 
 
 }
